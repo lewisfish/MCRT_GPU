@@ -8,6 +8,8 @@ GPU computation has been acheived by using OpenACC directives.
 This repo is mainly me playing around with OpenACC and possibly other GPU frameworks/libraries (CUDA).
 
 ## Building
+Requires Nvidia's NVFortran compiler, which can be downloaded from [here](https://developer.nvidia.com/hpc-sdk)m as part of Nvidia's HPC SDK.
+
 Can be built with make for [FPM](https://fpm.fortran-lang.org/en/index.html).
 
 Make:
