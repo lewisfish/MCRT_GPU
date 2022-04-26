@@ -1,0 +1,14 @@
+name = "gpuMCRT"
+version = "1.0.0"
+license = "MIT"
+author = "Lewis McMillan"
+maintainer = "lewisfish92"
+copyright = "2022 Lewis McMillan"
+
+[build]
+external-modules = ["openacc"]
+
+[[ executable ]]
+name="mcpolar"
+source-dir="src/"
+main="mcpolar.f90"

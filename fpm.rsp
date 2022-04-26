@@ -1,0 +1,5 @@
+@run
+option run mcpolar --compiler nvfortran --flag "-O2 -acc=gpu -Minfo=all -gpu=cc80"
+
+@debug
+option run mcpolar --compiler gfortran-10 --flag "-O2 -g -fbacktrace -fcheck=all -Wall -Wextra -fbounds-check"
